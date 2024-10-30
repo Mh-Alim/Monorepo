@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import { Signup } from "@repo/ui/mycomp";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Signup />
       <main className={styles.main}>
         <Image
           className={styles.logo}
